@@ -89,7 +89,7 @@ WHERE *CONDITION SELECT*
 
 - Inner Join:
 
-
+Toma solo los elementos en común entre la condición establecida
 
 <p align="center">
 	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/InnerJoin.PNG"></img>	
@@ -99,6 +99,8 @@ WHERE *CONDITION SELECT*
 
 - Left Join:
 
+Este tipo de unión significa que solo retornan todos los datos de la tabla de la mano izquierda, solo si los datos coinciden con la tabla de la mano derecha
+
 <p align="center">
 	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/LeftJoin.PNG"></img>	
 </p>
@@ -106,6 +108,8 @@ WHERE *CONDITION SELECT*
 <hr>
 
 - Right Join:
+
+Este tipo de unión es el caso opuesto al anterior. Implica que solo retornaran los datos de la tabla de la mano derecha, solo si los datos coinciden con la tabla de la mano izquierda
 
 <p align="center">
 	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/RigthJoin.PNG"></img>	
