@@ -84,6 +84,8 @@ WHERE *CONDITION SELECT*
 
 ### Metodos SQL Server
 
+<hr>	
+
 > Función: ` OBTIENE LA FECHA EN LA QUE SE REALIZA LA ACCIÓN `
 
 ```md
@@ -92,9 +94,13 @@ WHERE *CONDITION SELECT*
 
 > Función: ` COMPARA DOS FECHAS `
 
+<hr>	
+
 ```md
 - DATEDIFF(*TIPO COMPARACION*, *FECHA INICIAL*, *FECHA FINAL*): 
 ```
+
+<hr>	
 
 > Función: ` AGRUPA POR CONDITION `
 
@@ -102,11 +108,15 @@ WHERE *CONDITION SELECT*
 - GROUP BY: 
 ```
 
+<hr>	
+
 > Función: ` ORDENA POR CONDITION `
 
 ```md
 - ORDER BY: 
 ```
+
+<hr>	
 
 > Función: ` SUMA VALORES `
 
@@ -115,11 +125,15 @@ WHERE *CONDITION SELECT*
 - SUM(): 
 ```
 
+<hr>	
+
 > Función: ` PROMEDIO DE VALORES `
 
 ```md
 - AVG(): 
 ```
+
+<hr>	
 
 > Función: `EL VALOR MÁS GRANDE `
 
@@ -127,11 +141,15 @@ WHERE *CONDITION SELECT*
 - MAX(): 
 ```
 
+<hr>	
+
 > Función: `EL VALOR MÁS PEQUEÑO `
 
 ```md
 - MIN(): 
 ```
+
+<hr>	
 
 > Función: ` CONVIERTE EN MAYUSCULAS `
 
@@ -139,11 +157,15 @@ WHERE *CONDITION SELECT*
 - UCASE(): 
 ```
 
+<hr>	
+
 > Función: `CONVIERTE EN MINUSCULAS `
 
 ```md
 - LCASE(): 
 ```
+
+<hr>	
 
 > Función: `DEVUELVE LA LONGITUD DE CARACTERES DEL CAMPO `
 
@@ -151,11 +173,15 @@ WHERE *CONDITION SELECT*
 - LEN(): 
 ```
 
+<hr>	
+
 > Función: `DEVUELVE LA HORA Y FECHA ACTUALES DEL SISTEMA `
 
 ```md
 - NOW(): 
 ```
+
+<hr>	
 
 > Función: ` EXTRAE CARACTERES DE UN CAMPO TEXTO`
 
@@ -163,11 +189,15 @@ WHERE *CONDITION SELECT*
 - MID(*COLUMN*, *INICIO*, *LONGITUD*):
 ```
 
+<hr>	
+
 > Función: ` CONVIERTE UN STRING EN SU REVERSO Y RETORNA EL RESULTADO `
 
 ```md
 - REVERSE(): 
 ```
+
+<hr>	
 
 > Función: ` RETORNA LOS ESPACIOS DE UNA CADENA `
 
@@ -175,11 +205,15 @@ WHERE *CONDITION SELECT*
 - SPACE(): 
 ```
 
+<hr>	
+
 > Función: ` EXTRAE CARACTERES Y LO CONVIERTE UNA SUBCADENA `
 
 ```md
 - SUBSTRING(): 
 ```
+
+<hr>	
 
 > Función: ` QUITA LOS ESPACIOS DE UNA CADENA `
 
