@@ -1,5 +1,7 @@
 <h1 align="center">DOCUMENTACIÓN SQL SERVER</h1>
 
+<p align="justify">Documentación realizada con el objetivo de recordar algunas funcionalidades que nos permite realizar el lenguaje de dominio específico SQL en Microsoft SQL Server Management Studio. A continuación se mostrarán los comandos básicos de CRUD (Create, Read, Update, Delete) y algunas funciones primitivas de SQL Server. Este repositiorio es de proposito educativo.</p>
+
 <p align="justify">
 
 ### Usar una base de datos específica	
