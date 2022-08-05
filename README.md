@@ -3,26 +3,37 @@
 <p align="justify">
 
 ### Usar una base de datos específica	
+	
+```md
 USE *DB*
+```
+
 <hr>
 
 ### Crear Base de Datos
+```md
 Create Data Base *Nombre*
+```
+
 <hr>
 
 ### Crear una nueva tabla
+
+```md
 CREATE TABLE *DATABASE NAME* (
 	PK_1 DATA TYPE PRIMARY KEY IDENTITY NOT NULL,
 	COLUMN_1 DATA TYPE NOT,
 	FK_1
 	FOREIGN KEY (*FK_1*) REFERENCES *TABLE* (*PK TABLE*) 
 )
+```
+
 <hr>	
 
 ### Seleccionar elementos
 
 ```md
- SELECT *
+SELECT *
 FROM *TABLE*
 WHERE *CONDITION* 
 ```
