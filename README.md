@@ -78,9 +78,24 @@ ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 
 Los "Joins" es el proceso de obtener datos de varias tablas y ponerlos en una vista general. Por lo tanto, la declaración "SQL JOIN" en el comando Select une columnas entre una o más tablas en una base de datos relacional y devuelve un conjunto de datos. Existen varios tipos de "Joins" que veremos a continuación. Cabe resaltar que por defecto el comando "Join" toma la sentencia "Inner".
 
+- Inner Join:
+
 <p align="center">
 	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/InnerJoin.PNG"></img>	
 </p>
+
+- Left Join:
+
+<p align="center">
+	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/LeftJoin.PNG"></img>	
+</p>
+
+- Right Join:
+
+<p align="center">
+	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/RightJoin.PNG"></img>	
+</p>
+
 
 ```md
 SELECT *
