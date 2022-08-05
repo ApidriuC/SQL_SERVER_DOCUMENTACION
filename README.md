@@ -3,6 +3,7 @@
 <p align="justify">
 
 ### Usar una base de datos específica
+	
 USE *DB*
 
 CREATE TABLE *DATABASE NAME* (
