@@ -93,7 +93,7 @@ Los "Joins" es el proceso de obtener datos de varias tablas y ponerlos en una vi
 - Right Join:
 
 <p align="center">
-	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/RightJoin.PNG"></img>	
+	<img  alt="" src="https://github.com/ApidriuC/SQL_SERVER_DOCUMENTACION/blob/main/RigthJoin.PNG"></img>	
 </p>
 
 
