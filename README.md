@@ -75,6 +75,11 @@ ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 <hr>
 
 ### Joins entre tablas
+
+Los "Joins" es el proceso de obtener datos de varias tablas y ponerlos en una vista general. Por lo tanto, la declaración "SQL JOIN" en el comando Select une columnas entre una o más tablas en una base de datos relacional y devuelve un conjunto de datos. Existen varios tipos de "Joins" que veremos a continuación. Cabe resaltar que por defecto el comando "Join" toma la sentencia "Inner".
+
+<img align="center" alt="" src=""></img>	
+
 ```md
 SELECT *
 FROM *TABLE*
