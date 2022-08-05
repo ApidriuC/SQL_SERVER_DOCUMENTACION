@@ -5,6 +5,7 @@
 ### Usar una base de datos específica	
 USE *DB*
 <hr>
+
 ### Crear una nueva tabla
 CREATE TABLE *DATABASE NAME* (
 	PK_1 DATA TYPE PRIMARY KEY IDENTITY NOT NULL,
@@ -13,29 +14,36 @@ CREATE TABLE *DATABASE NAME* (
 	FOREIGN KEY (*FK_1*) REFERENCES *TABLE* (*PK TABLE*) 
 )
 <hr>	
+
 ### Seleccionar elementos
 SELECT *
 FROM *TABLE*
 WHERE *CONDITION* 
 <hr>
+
 ### Insertar elementos
 INSERT INTO *TABLE*(*COLUMNS*) VALUES (*VALUES*)
 <hr>
+
 ### Actualizar elementos
 UPDATE *TABLE* SET *COLUMN* = *VALUE* WHERE *CONDITION* 
 <hr>
+
 ### Borrar elementos de una fila
 DELETE FROM *TABLE* WHERE *CONDITION*
 <hr>
+
 ### Borrar columnas de una tabla
 ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 <hr>
+
 ### Joins entre tablas
 SELECT *
 FROM *TABLE*
 *TYPE JOIN* JOIN *TABLE* AS *PSUDONAME* ON *CONDITION JOIN*
 WHERE *CONDITION SELECT*
 <hr>
+
 ### Metodos SQL Server
 
 GETDATE(): OBTIENE LA FECHA EN LA QUE SE REALIZA LA ACCIÓN
