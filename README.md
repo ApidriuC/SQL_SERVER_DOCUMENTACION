@@ -6,6 +6,10 @@
 USE *DB*
 <hr>
 
+### Crear Base de Datos
+Create Data Base *Nombre*
+<hr>
+
 ### Crear una nueva tabla
 CREATE TABLE *DATABASE NAME* (
 	PK_1 DATA TYPE PRIMARY KEY IDENTITY NOT NULL,
