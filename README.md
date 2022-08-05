@@ -20,9 +20,13 @@ CREATE TABLE *DATABASE NAME* (
 <hr>	
 
 ### Seleccionar elementos
-SELECT *
+
+```md
+ SELECT *
 FROM *TABLE*
 WHERE *CONDITION* 
+```
+
 <hr>
 
 ### Insertar elementos
