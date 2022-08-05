@@ -41,26 +41,45 @@ WHERE *CONDITION*
 <hr>
 
 ### Insertar elementos
+
+```md
 INSERT INTO *TABLE*(*COLUMNS*) VALUES (*VALUES*)
+```
+
 <hr>
 
 ### Actualizar elementos
+
+```md
 UPDATE *TABLE* SET *COLUMN* = *VALUE* WHERE *CONDITION* 
+```
+
 <hr>
 
 ### Borrar elementos de una fila
+
+```md
 DELETE FROM *TABLE* WHERE *CONDITION*
+```
+
 <hr>
 
 ### Borrar columnas de una tabla
+
+```md
 ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
+```
+
 <hr>
 
 ### Joins entre tablas
+```md
 SELECT *
 FROM *TABLE*
 *TYPE JOIN* JOIN *TABLE* AS *PSUDONAME* ON *CONDITION JOIN*
 WHERE *CONDITION SELECT*
+```
+
 <hr>
 
 ### Metodos SQL Server
