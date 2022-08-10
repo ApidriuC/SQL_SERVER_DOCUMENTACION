@@ -72,6 +72,12 @@ DELETE FROM *TABLE* WHERE *CONDITION*
 ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 ```
 
+### Modificar columnas de una tabla
+
+```md
+ALTER TABLE *TABLE* ALTER COLUMN *COLUMN* *TIPO DATO*
+```
+
 <hr>
 
 ### Joins entre tablas
