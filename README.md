@@ -14,7 +14,7 @@ USE *DB*
 
 ### Crear Base de Datos
 ```md
-Create Data Base *Nombre*
+CREATE DATA BASE *Nombre*
 ```
 
 <hr>
