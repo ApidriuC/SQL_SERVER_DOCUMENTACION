@@ -78,6 +78,12 @@ ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 ALTER TABLE *TABLE* ALTER COLUMN *COLUMN* *TIPO DATO*
 ```
 
+### Reiniciar conteo de columnas autoincrementales
+
+```md
+DBCC CHECKIDENT (*TABLE*, RESEED, *APARTIR DE (NÚMERO)*)
+```
+
 <hr>
 
 ### Joins entre tablas
