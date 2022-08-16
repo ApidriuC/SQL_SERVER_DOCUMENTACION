@@ -84,6 +84,12 @@ ALTER TABLE *TABLE* ALTER COLUMN *COLUMN* *TIPO DATO*
 DBCC CHECKIDENT (*TABLE*, RESEED, *APARTIR DE (NÚMERO)*)
 ```
 
+### Otorgar Permisos a un Usuario en un Procedimiento Almacenado
+
+```md
+GRANT execute on *PROCEDIMIENTO* to *USER*;
+```
+
 <hr>
 
 ### Joins entre tablas
