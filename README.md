@@ -72,17 +72,23 @@ DELETE FROM *TABLE* WHERE *CONDITION*
 ALTER TABLE *TABLE* DROP COLUMN *COLUMN*;
 ```
 
+<hr>
+
 ### Modificar columnas de una tabla
 
 ```md
 ALTER TABLE *TABLE* ALTER COLUMN *COLUMN* *TIPO DATO*
 ```
 
+<hr>
+
 ### Reiniciar conteo de columnas autoincrementales
 
 ```md
 DBCC CHECKIDENT (*TABLE*, RESEED, *APARTIR DE (NÚMERO)*)
 ```
+
+<hr>
 
 ### Otorgar Permisos a un Usuario en un Procedimiento Almacenado
 
